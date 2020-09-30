@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/**/*.html",
+    "build": "NODE_ENV=production parcel build src/**/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.0.0",
+    "cssnano": "^4.1.10",
     "tailwindcss": "^1.8.10"
   }
 }
